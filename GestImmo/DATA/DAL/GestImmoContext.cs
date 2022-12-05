@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using GestImmo.DATA.Models;
 using Microsoft.EntityFrameworkCore;
+using Serilog;
 
 namespace ConsoleApp.PostgreSQL
 {
@@ -35,6 +36,8 @@ namespace ConsoleApp.PostgreSQL
                   instance = new GestImmoContext();
             }
             return instance;
+
+            Log.Logger.Information("test1");
         }
     }
 

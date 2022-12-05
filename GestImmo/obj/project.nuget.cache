@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "9a1LXHpoLPw1mcRQC9kzX9+uiqe455sfsc73sxrtFrC9khhmV9PQc1Msm6EcFAfVG55gM7ogdxZT/ab2NJ0RNA==",
+  "dgSpecHash": "1R5YiW3qtULh/O7tT92RHUkb68xoIxyj8wdiU66MQls81KYP/2804JDwy/Gi6giQbTRf3KfZeNGCiSmRxh24Cw==",
   "success": true,
   "projectFilePath": "C:\\Users\\maxen\\Documents\\2 eme année\\SLAM\\GestImmo\\GestImmo\\GestImmo\\GestImmo.csproj",
   "expectedPackageFiles": [
@@ -22,6 +22,9 @@
     "C:\\Users\\maxen\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "C:\\Users\\maxen\\.nuget\\packages\\npgsql\\6.0.7\\npgsql.6.0.7.nupkg.sha512",
     "C:\\Users\\maxen\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\6.0.7\\npgsql.entityframeworkcore.postgresql.6.0.7.nupkg.sha512",
+    "C:\\Users\\maxen\\.nuget\\packages\\serilog\\2.12.0\\serilog.2.12.0.nupkg.sha512",
+    "C:\\Users\\maxen\\.nuget\\packages\\serilog.sinks.console\\4.1.0\\serilog.sinks.console.4.1.0.nupkg.sha512",
+    "C:\\Users\\maxen\\.nuget\\packages\\serilog.sinks.file\\5.0.0\\serilog.sinks.file.5.0.0.nupkg.sha512",
     "C:\\Users\\maxen\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\maxen\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",
     "C:\\Users\\maxen\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
