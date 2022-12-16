@@ -27,6 +27,10 @@ namespace GestImmo.Views
     {
         GestImmoContext gestImmocontext = GestImmoContext.getInstance();
 
+
+
+
+
         public BienView()
         {
             InitializeComponent();
@@ -34,10 +38,9 @@ namespace GestImmo.Views
             //Bien box = new Box("test", 20, "adresse", 20);
             //gestImmocontext.Biens.Add(box);
             //gestImmocontext.SaveChanges();
-            foreach (Bien item in gestImmocontext.Biens)
-            {
-                ListeBiens.Items.Add(item.Nom);
-            }
+            ListBienView listBienView = new ListBienView();
+
+            this.listViewFrame.Navigate(listBienView);
         }
 
         private void ListeBiens_SelectionChanged(object sender, SelectionChangedEventArgs e)

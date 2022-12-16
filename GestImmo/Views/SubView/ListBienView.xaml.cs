@@ -20,9 +20,10 @@ namespace GestImmo.Views.SubView
     /// <summary>
     /// Logique d'interaction pour ListBienView.xaml
     /// </summary>
-    public partial class ListBienView : Page
+    public partial class ListBienView : Page , IObserver
     {
         GestImmoContext gestImmocontext = GestImmoContext.getInstance();
+
 
         public ListBienView()
         {
@@ -32,10 +33,33 @@ namespace GestImmo.Views.SubView
 
         private void ListeBien_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-           
 
+            foreach (Bien item in gestImmocontext.Biens)
+            {
+                this.ListeBien.Items.Add(item.Nom);
+            }
 
 
         }
+        private void refreshList()
+        {
+            GestImmoContext ctx = GestImmoContext.getInstance();
+
+            this.ListeBien.Items.Clear();
+
+            foreach (Bien bien in ctx.Biens)
+            {
+                this.ListeBien.Items.Add(bien.Nom);
+            }
+
+            
+
+
+        }
+        public void update()
+        {
+            this.refreshList();
+        }
+
     }
 }

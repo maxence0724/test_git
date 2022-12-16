@@ -14,8 +14,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using ConsoleApp.PostgreSQL;
 using GestImmo.DATA.Models;
-
-
+using Serilog;
 
 namespace GestImmo.Views.Forms
 {
@@ -106,6 +105,7 @@ namespace GestImmo.Views.Forms
             Bien appart = new Appartement(TxtAppartementNom.Text, int.Parse(TxtAppartementValeur.Text), TxtAppartementAdresse.Text, int.Parse(TxtAppartementSurface.Text), int.Parse(TxtAppartementNbPieces.Text), int.Parse(TxtAppartementNbChambres.Text), int.Parse(TxtAppartementNbCaves.Text), int.Parse(TxtAppartementNbParkings.Text), int.Parse(TxtAppartementEtages.Text),verif2, verif);
             cxt.Biens.Add(appart);
             cxt.SaveChanges();
+            Log.Logger.Information("appartement ajouté");
 
         }
 

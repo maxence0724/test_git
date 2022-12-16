@@ -14,6 +14,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using ConsoleApp.PostgreSQL;
 using GestImmo.DATA.Models;
+using Serilog;
 
 namespace GestImmo.Views.Forms
 {
@@ -32,6 +33,7 @@ namespace GestImmo.Views.Forms
             Bien bien = new Box(TxtBoxNom.Text, int.Parse(TxtBoxValeur.Text), TxtBoxAdresse.Text, int.Parse(TxtBoxSurface.Text));
             context.Biens.Add(bien);
             context.SaveChanges();
+            Log.Logger.Information("box ajouté");
         }
 
         private void TextBoxNom_TextChanged(object sender, TextChangedEventArgs e)

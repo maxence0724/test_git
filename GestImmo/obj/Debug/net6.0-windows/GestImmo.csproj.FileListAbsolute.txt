@@ -111,3 +111,23 @@ D:\GestImmo\GestImmo\obj\Debug\net6.0-windows\Views\Forms\GererBoxForm.baml
 D:\GestImmo\GestImmo\obj\Debug\net6.0-windows\Views\Forms\GererMaisonForm.baml
 D:\GestImmo\GestImmo\obj\Debug\net6.0-windows\Views\SubView\BienSingleView.baml
 D:\GestImmo\GestImmo\obj\Debug\net6.0-windows\Gestimmo.g.cs
+C:\Users\maxen\Documents\2 eme année\SLAM\GestImmo\GestImmo\GestImmo\obj\Debug\net6.0-windows\GestImmo.csproj.AssemblyReference.cache
+C:\Users\maxen\Documents\2 eme année\SLAM\GestImmo\GestImmo\GestImmo\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\maxen\Documents\2 eme année\SLAM\GestImmo\GestImmo\GestImmo\obj\Debug\net6.0-windows\Views\BienView.g.cs
+C:\Users\maxen\Documents\2 eme année\SLAM\GestImmo\GestImmo\GestImmo\obj\Debug\net6.0-windows\Views\Forms\GererAppartementForm.g.cs
+C:\Users\maxen\Documents\2 eme année\SLAM\GestImmo\GestImmo\GestImmo\obj\Debug\net6.0-windows\Views\Forms\GererBienForm.g.cs
+C:\Users\maxen\Documents\2 eme année\SLAM\GestImmo\GestImmo\GestImmo\obj\Debug\net6.0-windows\Views\Forms\GererBoxForm.g.cs
+C:\Users\maxen\Documents\2 eme année\SLAM\GestImmo\GestImmo\GestImmo\obj\Debug\net6.0-windows\Views\Forms\GererMaisonForm.g.cs
+C:\Users\maxen\Documents\2 eme année\SLAM\GestImmo\GestImmo\GestImmo\obj\Debug\net6.0-windows\Views\HomeView.g.cs
+C:\Users\maxen\Documents\2 eme année\SLAM\GestImmo\GestImmo\GestImmo\obj\Debug\net6.0-windows\Views\Navigation.g.cs
+C:\Users\maxen\Documents\2 eme année\SLAM\GestImmo\GestImmo\GestImmo\obj\Debug\net6.0-windows\Views\PrestataireView.g.cs
+C:\Users\maxen\Documents\2 eme année\SLAM\GestImmo\GestImmo\GestImmo\obj\Debug\net6.0-windows\Views\PretView.g.cs
+C:\Users\maxen\Documents\2 eme année\SLAM\GestImmo\GestImmo\GestImmo\obj\Debug\net6.0-windows\Views\SubView\BienSingleView.g.cs
+C:\Users\maxen\Documents\2 eme année\SLAM\GestImmo\GestImmo\GestImmo\obj\Debug\net6.0-windows\Views\SubView\ListBienView.g.cs
+C:\Users\maxen\Documents\2 eme année\SLAM\GestImmo\GestImmo\GestImmo\obj\Debug\net6.0-windows\Gestimmo.g.cs
+C:\Users\maxen\Documents\2 eme année\SLAM\GestImmo\GestImmo\GestImmo\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\maxen\Documents\2 eme année\SLAM\GestImmo\GestImmo\GestImmo\obj\Debug\net6.0-windows\GestImmo_MarkupCompile.cache
+C:\Users\maxen\Documents\2 eme année\SLAM\GestImmo\GestImmo\GestImmo\obj\Debug\net6.0-windows\GestImmo_MarkupCompile.lref
+C:\Users\maxen\Documents\2 eme année\SLAM\GestImmo\GestImmo\GestImmo\obj\Debug\net6.0-windows\GestImmo.dll
+C:\Users\maxen\Documents\2 eme année\SLAM\GestImmo\GestImmo\GestImmo\obj\Debug\net6.0-windows\refint\GestImmo.dll
+C:\Users\maxen\Documents\2 eme année\SLAM\GestImmo\GestImmo\GestImmo\obj\Debug\net6.0-windows\GestImmo.pdb

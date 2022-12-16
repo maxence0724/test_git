@@ -14,6 +14,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using ConsoleApp.PostgreSQL;
 using GestImmo.DATA.Models;
+using Serilog;
 
 namespace GestImmo.Views.Forms
 {
@@ -72,6 +73,7 @@ namespace GestImmo.Views.Forms
             Bien maison = new Maison(TxtMaisonNom.Text, int.Parse(TxtMaisonValeur.Text), TxtMaisonAdresse.Text, int.Parse(TxtMaisonSurface.Text), int.Parse(TxtMaisonNbPieces.Text), int.Parse(TxtMaisonNbChambres.Text), int.Parse(TxtMaisonNbCaves.Text), int.Parse(TxtMaisonNbParkings.Text));
             ctx.Biens.Add(maison);
             ctx.SaveChanges();
+            Log.Logger.Information("maison ajouté");
         }
     }
 }

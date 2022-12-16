@@ -30,9 +30,7 @@ namespace GestImmo
 
             Log.Logger = new LoggerConfiguration()
                           .WriteTo.Console()
-                          .CreateLogger();
                           .MinimumLevel.Debug()
-                .WriteTo.Console()
                 .WriteTo.File("logs/myapp.txt", rollingInterval: RollingInterval.Day)
                 .CreateLogger();
 

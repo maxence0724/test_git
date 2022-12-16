@@ -15,6 +15,10 @@ namespace GestImmo.DATA.Models
 
         public List<Locataire> Locataires { get; set; }
 
+        public static DateTime dateBailEnCours = new DateTime(2000, 1, 1);
+
+
+
         public Bail()
         {
 

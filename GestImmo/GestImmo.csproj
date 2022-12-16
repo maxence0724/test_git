@@ -24,7 +24,10 @@
 
   <ItemGroup>
     <Folder Include="DATA\DAO\" />
-    <Folder Include="Controllers\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\.editorconfig" Link=".editorconfig" />
   </ItemGroup>
 
   <ItemGroup>
